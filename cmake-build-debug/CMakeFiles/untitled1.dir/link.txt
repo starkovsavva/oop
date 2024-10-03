@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/untitled1.dir/main.cpp.o CMakeFiles/untitled1.dir/models/sources/Map.cpp.o CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o -o untitled1 

@@ -6,11 +6,24 @@
 #define UNTITLED1_SHIPMANAGER_H
 
 
+#include <vector>
+#include "Ship.h"
 
 class ShipManager {
 
-};
+public:
 
+    ShipManager();
+
+
+    const bool createShip(int len);
+    const void findByUniqueRef();
+
+private:
+    std::vector<Ship> ships;
+
+
+};
 
 
 #endif //UNTITLED1_SHIPMANAGER_H
