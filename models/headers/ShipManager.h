@@ -13,11 +13,11 @@ class ShipManager {
 
 public:
 
-    ShipManager();
+    ShipManager(std::vector<int> shipSizes);
 
 
     const bool createShip(int len);
-    const void findByUniqueRef();
+    const void findByUniqueRef(int unique_ref);
 
 private:
     std::vector<Ship> ships;

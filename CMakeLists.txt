@@ -15,4 +15,6 @@ add_executable(untitled1 main.cpp
         models/sources/Cell.cpp
         models/sources/Ship.cpp
         models/headers/ShipManager.h
-        models/sources/ShipManager.cpp)
+        models/sources/ShipManager.cpp
+        models/sources/Coordinate.сpp
+        models/sources/Game.cpp)

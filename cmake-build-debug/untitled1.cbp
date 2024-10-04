@@ -103,6 +103,12 @@
 		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Cell.cpp">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Coordinate.сpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Game.cpp">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Map.cpp">
 			<Option target="untitled1"/>
 		</Unit>

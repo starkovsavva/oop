@@ -54,7 +54,8 @@
 				6,
 				7,
 				8,
-				10
+				10,
+				12
 			]
 		}
 	],
@@ -92,7 +93,8 @@
 				6,
 				7,
 				8,
-				10
+				10,
+				12
 			]
 		},
 		{
@@ -104,6 +106,13 @@
 				3,
 				4,
 				9
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				11
 			]
 		}
 	],
@@ -168,6 +177,17 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "models/sources/ShipManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "models/sources/Coordinate.\u0441pp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "models/sources/Game.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

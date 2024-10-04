@@ -6,6 +6,10 @@
 
 
 
+Map::Map(int len){
+    for
+}
+
 
 const std::vector<std::vector<Cell>> &Map::getField() const {
     return field;

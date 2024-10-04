@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/main.cpp.o.d"
   "CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o"
   "CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o.d"
+  "CMakeFiles/untitled1.dir/models/sources/Game.cpp.o"
+  "CMakeFiles/untitled1.dir/models/sources/Game.cpp.o.d"
   "CMakeFiles/untitled1.dir/models/sources/Map.cpp.o"
   "CMakeFiles/untitled1.dir/models/sources/Map.cpp.o.d"
   "CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o"

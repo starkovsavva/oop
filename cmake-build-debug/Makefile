@@ -177,6 +177,30 @@ models/sources/Cell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Cell.cpp.s
 .PHONY : models/sources/Cell.cpp.s
 
+models/sources/Game.o: models/sources/Game.cpp.o
+.PHONY : models/sources/Game.o
+
+# target to build an object file
+models/sources/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Game.cpp.o
+.PHONY : models/sources/Game.cpp.o
+
+models/sources/Game.i: models/sources/Game.cpp.i
+.PHONY : models/sources/Game.i
+
+# target to preprocess a source file
+models/sources/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Game.cpp.i
+.PHONY : models/sources/Game.cpp.i
+
+models/sources/Game.s: models/sources/Game.cpp.s
+.PHONY : models/sources/Game.s
+
+# target to generate assembly for a file
+models/sources/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Game.cpp.s
+.PHONY : models/sources/Game.cpp.s
+
 models/sources/Map.o: models/sources/Map.cpp.o
 .PHONY : models/sources/Map.o
 
@@ -288,6 +312,9 @@ help:
 	@echo "... models/sources/Cell.o"
 	@echo "... models/sources/Cell.i"
 	@echo "... models/sources/Cell.s"
+	@echo "... models/sources/Game.o"
+	@echo "... models/sources/Game.i"
+	@echo "... models/sources/Game.s"
 	@echo "... models/sources/Map.o"
 	@echo "... models/sources/Map.i"
 	@echo "... models/sources/Map.s"
