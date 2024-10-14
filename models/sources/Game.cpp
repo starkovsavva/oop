@@ -14,6 +14,7 @@ void Game::gameInit(){
     std::vector<int> sizes = {3,2,1};
     ShipManager shipManager(sizes);
 
+    Ship ship(3);
     map.placeShip(ship,Coordinate(5 ,3),Orientation::HORIZONTAL);
     map.display();
 //    map.printCell(Coordinate(5 ,3));

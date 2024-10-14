@@ -148,6 +148,8 @@ CMakeFiles/untitled1.dir/models/sources/Game.cpp.o: \
  /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/../headers/Constants.hpp \
  /usr/include/c++/11/cstdint \
  /mnt/c/Users/sdf/CLionProjects/untitled1/models/headers/Constants.hpp \
+ /mnt/c/Users/sdf/CLionProjects/untitled1/models/headers/ShipManager.hpp \
+ /mnt/c/Users/sdf/CLionProjects/untitled1/models/headers/Ship.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/localefwd.h \
