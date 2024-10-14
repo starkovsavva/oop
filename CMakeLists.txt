@@ -3,18 +3,18 @@ project(untitled1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(untitled1 main.cpp
-        models/headers/Ship.h
-        models/headers/Ship.h
-        models/headers/Segment.h
-        models/headers/Cell.h
-        models/headers/Map.h
+# Указываем пути к заголовочным файлам
+include_directories(models/headers)
+
+# Указываем исходные файлы
+set(SOURCES
+        main.cpp
         models/sources/Map.cpp
-        models/sources/Segment.cpp
-        models/sources/Segment.cpp
-        models/sources/Cell.cpp
         models/sources/Ship.cpp
-        models/headers/ShipManager.h
         models/sources/ShipManager.cpp
-        models/sources/Coordinate.сpp
-        models/sources/Game.cpp)
+        models/sources/Game.cpp
+        models/sources/Constants.cpp
+)
+
+# Добавляем исполняемый файл
+add_executable(untitled1 ${SOURCES})

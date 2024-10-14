@@ -1,0 +1,53 @@
+digraph UML_Class_diagram {
+    graph [
+        label="UML Class Diagram for Battleship Game"
+        labelloc="t"
+        rankdir=UD
+        fontname="Helvetica,Arial,sans-serif"
+    ]
+
+    node [
+        fontname="Helvetica,Arial,sans-serif"
+        shape=record
+        style=filled
+        fillcolor=gray95
+    ]
+
+    edge [
+        fontname="Helvetica,Arial,sans-serif"
+        arrowhead=vee
+        style=dashed
+    ]
+
+    Game -> Map [label=dependency]
+    Game -> Ship [label=dependency]
+    Map -> Cell [label=composition]
+    Map -> Ship [label=aggregation]
+    Ship -> Segment [label=composition]
+    ShipManager -> Ship [label=aggregation]
+
+    edge [dir=back arrowtail=empty style=""]
+    Cell -> Coordinate [label=association]
+    Cell -> Segment [label=association]
+    Segment -> Ship [label=association]
+
+    Cell[label = "{Cell | - value: CellValue | - coords: Coordinate | - cellStatus: CellStatus | - segmentReference: Segment* | + getSegmentReference(): Segment* | + setValue(CellValue)& | + getCellStatus(): CellStatus | + setSegment(Segment*) | + getCoords(): Coordinate | + display(): char | + setCellStatus(CellStatus)}"]
+
+    Coordinate[label = "{Coordinate | - x: int | - y: int | + Coordinate(int, int) | + operator==(const Coordinate&): bool | + operator&lt;(const Coordinate&): bool}"]
+
+    CellStatus[label = "{CellStatus | UNKNOWN | EMPTY | SHIP}"]
+
+    CellValue[label = "{CellValue | WaterHidden | WaterRevealed | ShipPart | Hit | Destroyed}"]
+
+    Segment[label = "{Segment | - state: SegmentState | + setState(SegmentState) | + getState(): SegmentState}"]
+
+    SegmentState[label = "{SegmentState | Intact | Damaged | Destroyed}"]
+
+    Ship[label = "{Ship | - segments: std::vector<Segment> | + Ship(int) | + getSegment(int): Segment& | + getLen(): int | + setOrientation(Orientation) | + isDestroyed(): bool}"]
+
+    ShipManager[label = "{ShipManager | - ships: std::vector<Ship> | + ShipManager(std::vector<int>) | + createShip(int): Ship& | + getShips() const: std::vector<Ship>&}"]
+
+    Map[label = "{Map | - width: int | - height: int | - field: std::vector&lt;std::vector&lt;Cell&gt;&gt; | + Map(int, int) | + placeShip(Ship&, Coordinate, Orientation) | + display() const | + attackCell(Coordinate): CellStatus}"]
+
+    Game[label = "{Game | + gameInit(): void}"]
+}

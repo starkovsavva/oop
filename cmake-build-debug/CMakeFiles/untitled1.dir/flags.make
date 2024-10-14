@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/mnt/c/Users/sdf/CLionProjects/untitled1/models/headers
 
 CXX_FLAGS = -g
 

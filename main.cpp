@@ -1,6 +1,12 @@
 #include <iostream>
+#include "models/headers/Game.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    Game game;
+    game.gameInit();
+
+
+
     return 0;
 }

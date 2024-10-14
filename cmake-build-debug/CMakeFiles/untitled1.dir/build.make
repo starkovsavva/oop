@@ -97,38 +97,10 @@ CMakeFiles/untitled1.dir/models/sources/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/models/sources/Map.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Map.cpp -o CMakeFiles/untitled1.dir/models/sources/Map.cpp.s
 
-CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o: ../models/sources/Segment.cpp
-CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o -MF CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o.d -o CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o -c /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Segment.cpp
-
-CMakeFiles/untitled1.dir/models/sources/Segment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/models/sources/Segment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Segment.cpp > CMakeFiles/untitled1.dir/models/sources/Segment.cpp.i
-
-CMakeFiles/untitled1.dir/models/sources/Segment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/models/sources/Segment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Segment.cpp -o CMakeFiles/untitled1.dir/models/sources/Segment.cpp.s
-
-CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o: ../models/sources/Cell.cpp
-CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o -MF CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o.d -o CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o -c /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Cell.cpp
-
-CMakeFiles/untitled1.dir/models/sources/Cell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/models/sources/Cell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Cell.cpp > CMakeFiles/untitled1.dir/models/sources/Cell.cpp.i
-
-CMakeFiles/untitled1.dir/models/sources/Cell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/models/sources/Cell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Cell.cpp -o CMakeFiles/untitled1.dir/models/sources/Cell.cpp.s
-
 CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o: CMakeFiles/untitled1.dir/flags.make
 CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o: ../models/sources/Ship.cpp
 CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o -MF CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o.d -o CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o -c /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Ship.cpp
 
 CMakeFiles/untitled1.dir/models/sources/Ship.cpp.i: cmake_force
@@ -142,7 +114,7 @@ CMakeFiles/untitled1.dir/models/sources/Ship.cpp.s: cmake_force
 CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o: CMakeFiles/untitled1.dir/flags.make
 CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o: ../models/sources/ShipManager.cpp
 CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o -MF CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o.d -o CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o -c /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/ShipManager.cpp
 
 CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.i: cmake_force
@@ -156,7 +128,7 @@ CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.s: cmake_force
 CMakeFiles/untitled1.dir/models/sources/Game.cpp.o: CMakeFiles/untitled1.dir/flags.make
 CMakeFiles/untitled1.dir/models/sources/Game.cpp.o: ../models/sources/Game.cpp
 CMakeFiles/untitled1.dir/models/sources/Game.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled1.dir/models/sources/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled1.dir/models/sources/Game.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/models/sources/Game.cpp.o -MF CMakeFiles/untitled1.dir/models/sources/Game.cpp.o.d -o CMakeFiles/untitled1.dir/models/sources/Game.cpp.o -c /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Game.cpp
 
 CMakeFiles/untitled1.dir/models/sources/Game.cpp.i: cmake_force
@@ -167,29 +139,41 @@ CMakeFiles/untitled1.dir/models/sources/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/models/sources/Game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Game.cpp -o CMakeFiles/untitled1.dir/models/sources/Game.cpp.s
 
+CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o: ../models/sources/Constants.cpp
+CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o -MF CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o.d -o CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o -c /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Constants.cpp
+
+CMakeFiles/untitled1.dir/models/sources/Constants.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/models/sources/Constants.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Constants.cpp > CMakeFiles/untitled1.dir/models/sources/Constants.cpp.i
+
+CMakeFiles/untitled1.dir/models/sources/Constants.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/models/sources/Constants.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Constants.cpp -o CMakeFiles/untitled1.dir/models/sources/Constants.cpp.s
+
 # Object files for target untitled1
 untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/main.cpp.o" \
 "CMakeFiles/untitled1.dir/models/sources/Map.cpp.o" \
-"CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o" \
-"CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o" \
 "CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o" \
 "CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o" \
-"CMakeFiles/untitled1.dir/models/sources/Game.cpp.o"
+"CMakeFiles/untitled1.dir/models/sources/Game.cpp.o" \
+"CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
 
 untitled1: CMakeFiles/untitled1.dir/main.cpp.o
 untitled1: CMakeFiles/untitled1.dir/models/sources/Map.cpp.o
-untitled1: CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o
-untitled1: CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o
 untitled1: CMakeFiles/untitled1.dir/models/sources/Ship.cpp.o
 untitled1: CMakeFiles/untitled1.dir/models/sources/ShipManager.cpp.o
 untitled1: CMakeFiles/untitled1.dir/models/sources/Game.cpp.o
+untitled1: CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o
 untitled1: CMakeFiles/untitled1.dir/build.make
 untitled1: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable untitled1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/sdf/CLionProjects/untitled1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

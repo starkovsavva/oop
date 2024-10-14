@@ -153,29 +153,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-models/sources/Cell.o: models/sources/Cell.cpp.o
-.PHONY : models/sources/Cell.o
+models/sources/Constants.o: models/sources/Constants.cpp.o
+.PHONY : models/sources/Constants.o
 
 # target to build an object file
-models/sources/Cell.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Cell.cpp.o
-.PHONY : models/sources/Cell.cpp.o
+models/sources/Constants.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Constants.cpp.o
+.PHONY : models/sources/Constants.cpp.o
 
-models/sources/Cell.i: models/sources/Cell.cpp.i
-.PHONY : models/sources/Cell.i
+models/sources/Constants.i: models/sources/Constants.cpp.i
+.PHONY : models/sources/Constants.i
 
 # target to preprocess a source file
-models/sources/Cell.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Cell.cpp.i
-.PHONY : models/sources/Cell.cpp.i
+models/sources/Constants.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Constants.cpp.i
+.PHONY : models/sources/Constants.cpp.i
 
-models/sources/Cell.s: models/sources/Cell.cpp.s
-.PHONY : models/sources/Cell.s
+models/sources/Constants.s: models/sources/Constants.cpp.s
+.PHONY : models/sources/Constants.s
 
 # target to generate assembly for a file
-models/sources/Cell.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Cell.cpp.s
-.PHONY : models/sources/Cell.cpp.s
+models/sources/Constants.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Constants.cpp.s
+.PHONY : models/sources/Constants.cpp.s
 
 models/sources/Game.o: models/sources/Game.cpp.o
 .PHONY : models/sources/Game.o
@@ -224,30 +224,6 @@ models/sources/Map.s: models/sources/Map.cpp.s
 models/sources/Map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Map.cpp.s
 .PHONY : models/sources/Map.cpp.s
-
-models/sources/Segment.o: models/sources/Segment.cpp.o
-.PHONY : models/sources/Segment.o
-
-# target to build an object file
-models/sources/Segment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Segment.cpp.o
-.PHONY : models/sources/Segment.cpp.o
-
-models/sources/Segment.i: models/sources/Segment.cpp.i
-.PHONY : models/sources/Segment.i
-
-# target to preprocess a source file
-models/sources/Segment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Segment.cpp.i
-.PHONY : models/sources/Segment.cpp.i
-
-models/sources/Segment.s: models/sources/Segment.cpp.s
-.PHONY : models/sources/Segment.s
-
-# target to generate assembly for a file
-models/sources/Segment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/models/sources/Segment.cpp.s
-.PHONY : models/sources/Segment.cpp.s
 
 models/sources/Ship.o: models/sources/Ship.cpp.o
 .PHONY : models/sources/Ship.o
@@ -309,18 +285,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... models/sources/Cell.o"
-	@echo "... models/sources/Cell.i"
-	@echo "... models/sources/Cell.s"
+	@echo "... models/sources/Constants.o"
+	@echo "... models/sources/Constants.i"
+	@echo "... models/sources/Constants.s"
 	@echo "... models/sources/Game.o"
 	@echo "... models/sources/Game.i"
 	@echo "... models/sources/Game.s"
 	@echo "... models/sources/Map.o"
 	@echo "... models/sources/Map.i"
 	@echo "... models/sources/Map.s"
-	@echo "... models/sources/Segment.o"
-	@echo "... models/sources/Segment.i"
-	@echo "... models/sources/Segment.s"
 	@echo "... models/sources/Ship.o"
 	@echo "... models/sources/Ship.i"
 	@echo "... models/sources/Ship.s"

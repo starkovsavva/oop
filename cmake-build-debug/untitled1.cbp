@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/mnt/c/Users/sdf/CLionProjects/untitled1/models/headers"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -46,6 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/mnt/c/Users/sdf/CLionProjects/untitled1/models/headers"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -85,34 +87,13 @@
 		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/main.cpp">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/headers/Cell.h">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/headers/Map.h">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/headers/Segment.h">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/headers/Ship.h">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/headers/ShipManager.h">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Cell.cpp">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Coordinate.сpp">
+		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Constants.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Game.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Map.cpp">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Segment.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/sdf/CLionProjects/untitled1/models/sources/Ship.cpp">

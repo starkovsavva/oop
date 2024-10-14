@@ -2,12 +2,12 @@
 // Created by sdf on 03.10.2024.
 //
 
-#ifndef UNTITLED1_SHIPMANAGER_H
-#define UNTITLED1_SHIPMANAGER_H
+#ifndef UNTITLED1_SHIPMANAGER_HPP
+#define UNTITLED1_SHIPMANAGER_HPP
 
 
 #include <vector>
-#include "Ship.h"
+#include "Ship.hpp"
 
 class ShipManager {
 
@@ -15,9 +15,9 @@ public:
 
     ShipManager(std::vector<int> shipSizes);
 
+    const std::vector<Ship>& getShips() const;
 
-    const bool createShip(int len);
-    const void findByUniqueRef(int unique_ref);
+    Ship& createShip(int len);
 
 private:
     std::vector<Ship> ships;
@@ -26,4 +26,4 @@ private:
 };
 
 
-#endif //UNTITLED1_SHIPMANAGER_H
+#endif //UNTITLED1_SHIPMANAGER_HPP
